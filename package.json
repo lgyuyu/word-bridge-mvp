@@ -1,0 +1,10 @@
+{
+  "name": "word-bridge-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "validate": "node scripts/validate-data.mjs"
+  }
+}

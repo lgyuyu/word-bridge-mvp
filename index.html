@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="先确认熟词，再用真正认识的词学习5个新词。" />
+    <title>单词桥 · 个性化熟词学习</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%231e6b4f%22/><text x=%2232%22 y=%2243%22 text-anchor=%22middle%22 font-size=%2236%22 fill=%22white%22>W</text></svg>" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <button id="goHome" class="brand" type="button" aria-label="返回单词桥首页">
+          <span class="brand-mark">W</span>
+          <span><strong>单词桥</strong><small>Word Bridge</small></span>
+        </button>
+
+        <div id="headerStatus" class="header-status">高中词汇 · 熟词桥第一组</div>
+
+        <button id="openWordList" class="ghost-button" type="button">30词词库</button>
+      </header>
+
+      <main id="appMain" class="app-main" aria-live="polite">
+        <section class="loading-state">
+          <p>正在准备你的熟词桥……</p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>真实构词与记忆联想分开标识</span>
+        <span>学习记录仅保存在当前浏览器</span>
+      </footer>
+    </div>
+
+    <dialog id="wordListDialog" class="word-dialog">
+      <div class="dialog-head">
+        <div>
+          <p class="context-label">高中词汇 · 第一组</p>
+          <h2>30词学习地图</h2>
+        </div>
+        <button id="closeWordList" class="icon-button" type="button" aria-label="关闭">×</button>
+      </div>
+      <div id="wordGrid" class="word-grid"></div>
+      <div class="dialog-footer">
+        <button id="resetAnchors" class="text-button" type="button">重新建立熟词档案</button>
+        <button id="resetAll" class="text-button danger-text" type="button">清空全部学习记录</button>
+      </div>
+    </dialog>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

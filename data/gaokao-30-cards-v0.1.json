@@ -1,0 +1,312 @@
+{
+  "version": "0.1",
+  "updated_at": "2026-08-13",
+  "module_id": "gaokao-foundation-001",
+  "module_name": "高中词汇·熟词桥第一组",
+  "positioning": "用学习者已经掌握的基础词，建立通往高中目标词的最短记忆路径。",
+  "card_count": 30,
+  "learning_flow": ["known_word_check", "visible_change", "guided_guess", "fact_and_bridge", "active_spelling", "context_recall", "spaced_review"],
+  "evidence_summary": { "L1": 19, "L2": 8, "M1": 3 },
+  "cards": [
+    {
+      "id": "MVP-GK-001", "target": "telephone", "meaning": "电话；打电话", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "phone", "anchor_candidates": [{"word":"phone","meaning":"电话；手机；打电话","priority":1,"status":"compulsory_education_base","transform":"phone 是 telephone 的常用缩略形式；在 phone 前补回 tele-","bridge":"你每天说的 phone，补回表示“远”的 tele-，就是完整的 telephone。","recall_prompt":"phone 的完整形式是什么？","fact_boundary":"phone 是 telephone 的后部截短形式；telephone 本身由 tele-“远”与 -phone“声音”构成。"},{"word":"television","meaning":"电视","priority":2,"status":"compulsory_education_base","transform":"telephone 与 television 共享 tele-“远”；后半部分由 vision 换成 phone","bridge":"television 把画面送到远处；telephone 把声音送到远处。","recall_prompt":"television 送远的是画面；送远声音的设备是什么？","fact_boundary":"telephone 与 television 共享希腊语来源的 tele-“远”；两词后半部分含义不同。"}],
+      "transform": "phone 是 telephone 的常用缩略形式；在 phone 前补回 tele-", "form_operations": ["缩略形式还原", "词素拆分"],
+      "bridge": "你每天说的 phone，补回表示“远”的 tele-，就是完整的 telephone。", "recall_prompt": "phone 的完整形式是什么？",
+      "meaning_prompt": "能把声音送到远处的设备是什么？", "warning": "tele-只在有历史依据的词中表示“远”，不能套到所有tele开头的字符串。",
+      "fact_boundary": "phone 是 telephone 的后部截短形式；telephone 本身由 tele-“远”与 -phone“声音”构成。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "Please answer the telephone before it stops ringing.", "example_translation": "请在电话停止响铃前接听。", "confusion_note": "telephone偏电话设备或打电话；phone是更常见的简写。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2760", "mapping_id": "MAP-002760", "relation_ids": ["REL-000339","REL-000459"], "review_ids": ["REV-000057","REV-000077"], "admission_ids": ["ADM-000032","ADM-000059"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-002", "target": "decision", "meaning": "决定；决心", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "decide", "anchor_candidates": [{"word":"decide","meaning":"决定","priority":1,"status":"compulsory_education_base"}],
+      "transform": "decide → decis- + -ion；动词义转为名词义", "form_operations": ["词族换尾", "词性变化"],
+      "bridge": "先 decide 做决定，做出的那个决定就是 decision。", "recall_prompt": "decide 的名词“决定”怎么写？",
+      "meaning_prompt": "已经做出的决定用哪个名词？", "warning": "拼写是decision，不是decidion。",
+      "fact_boundary": "decide与decision来自同一拉丁词族；不是现代英语机械地给decide加-sion。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "She made the decision after talking with her family.", "example_translation": "她和家人谈过后作出了决定。", "confusion_note": "make a decision是常用搭配；decide是动词。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0747", "mapping_id": "MAP-000747", "relation_ids": ["REL-000094"], "review_ids": ["REV-000052"], "admission_ids": ["ADM-000027"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-003", "target": "location", "meaning": "位置；地点", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "local", "anchor_candidates": [{"word":"local","meaning":"当地的；本地的","priority":1,"status":"compulsory_education_base","transform":"local 与 location 共享 loc-“地方”；词尾换成 -ation 得到地点名词","bridge":"local 是本地的，location 就是所在的那个地点。","recall_prompt":"从 local 的“地方”核心，推出表示“位置”的名词。","fact_boundary":"local 与 location 共享拉丁 locus“地方”的历史词族关系。"},{"word":"locate","meaning":"确定位置；坐落于","priority":2,"status":"high_school_required","transform":"locate 去掉末尾 e，再加 -ion，得到表示位置的名词 location","bridge":"先 locate 确定位置，确定下来的位置就是 location。","recall_prompt":"locate 对应的“位置、地点”名词怎么写？","fact_boundary":"locate 与 location 共享拉丁 locare“放置、定位”的历史词族关系；不是任意动词都能机械换尾。"}],
+      "transform": "local、locate、location 共享 loc- 的“地方”核心", "form_operations": ["共享词根", "词族扩展"],
+      "bridge": "local 是本地的，locate 是找到位置，location 就是那个位置。", "recall_prompt": "从local的“地方”核心，推出表示“位置”的名词。",
+      "meaning_prompt": "某人或某物所在的位置用哪个词？", "warning": "location是名词；locate是动词。",
+      "fact_boundary": "local、locate、location共享拉丁locus“地方”的历史词族关系。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "The hotel has a perfect location near the station.", "example_translation": "这家酒店的位置很好，靠近车站。", "confusion_note": "location强调位置或地点；local常作形容词。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1630", "mapping_id": "MAP-001630", "relation_ids": ["REL-000306"], "review_ids": ["REV-000056"], "admission_ids": ["ADM-000031"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-004", "target": "rainy", "meaning": "多雨的；下雨的", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "rain", "anchor_candidates": [{"word":"rain","meaning":"雨；下雨","priority":1,"status":"compulsory_education_base"}],
+      "transform": "rain + -y（具有……特征）", "form_operations": ["增加后缀"],
+      "bridge": "空气里充满rain，就是rainy：多雨的。", "recall_prompt": "rain加哪个后缀可以变成“多雨的”？",
+      "meaning_prompt": "一个经常下雨的日子怎样形容？", "warning": "直接写rainy，不双写n。",
+      "fact_boundary": "rainy是rain加形容词后缀-y的真实构词。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "We stayed indoors because it was a rainy afternoon.", "example_translation": "因为那是个下雨的下午，我们待在室内。", "confusion_note": "rain是名词或动词；rainy是形容词。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2222", "mapping_id": "MAP-002222", "relation_ids": ["REL-000286"], "review_ids": ["REV-000063"], "admission_ids": ["ADM-000038"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-005", "target": "snowy", "meaning": "多雪的；下雪的", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "snow", "anchor_candidates": [{"word":"snow","meaning":"雪；下雪","priority":1,"status":"compulsory_education_base"}],
+      "transform": "snow + -y（具有……特征）", "form_operations": ["增加后缀"],
+      "bridge": "地面和天空都充满snow，就是snowy：多雪的。", "recall_prompt": "snow加-y得到哪个形容词？",
+      "meaning_prompt": "天气多雪时用哪个形容词？", "warning": "保留snow的w，再加y。",
+      "fact_boundary": "snowy是snow加形容词后缀-y的真实构词。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "Drivers should be careful on snowy roads.", "example_translation": "司机在积雪道路上应当小心。", "confusion_note": "snowy描述天气或覆盖着雪的事物。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2548", "mapping_id": "MAP-002548", "relation_ids": ["REL-000286"], "review_ids": ["REV-000063"], "admission_ids": ["ADM-000038"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-006", "target": "solution", "meaning": "解决办法；答案；溶液", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "solve", "anchor_candidates": [{"word":"solve","meaning":"解决；解答","priority":1,"status":"compulsory_education_base"}],
+      "transform": "solve → solut- + -ion；共享“解决、松开”核心", "form_operations": ["词族换尾", "词性变化"],
+      "bridge": "能solve问题的办法，就是solution。", "recall_prompt": "solve对应的名词“解决办法”怎么写？",
+      "meaning_prompt": "解决一个问题的办法用哪个名词？", "warning": "拼写中v变为ut：solution。",
+      "fact_boundary": "solve与solution共享拉丁solvere来源；不是现代英语机械换尾规则。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "We need a practical solution to this problem.", "example_translation": "我们需要一个解决这个问题的实际办法。", "confusion_note": "solution还可表示化学中的溶液，需要靠语境判断。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2563", "mapping_id": "MAP-002563", "relation_ids": ["REL-000167"], "review_ids": ["REV-000053"], "admission_ids": ["ADM-000028"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-007", "target": "absence", "meaning": "缺席；不存在", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "absent", "anchor_candidates": [{"word":"absent","meaning":"缺席的；不在的","priority":1,"status":"compulsory_education_base"}],
+      "transform": "absent → absence；-t与-ce形成形容词/名词对照", "form_operations": ["词族换尾", "词性变化"],
+      "bridge": "一个人absent，他不在场的状态就是absence。", "recall_prompt": "absent的名词“缺席”怎么写？",
+      "meaning_prompt": "不在场的状态用哪个名词？", "warning": "absence末尾是-ce，不是-ts。",
+      "fact_boundary": "absent与absence来自同一拉丁词族；不是现代英语随意替换词尾。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "No reason was given for his absence from school.", "example_translation": "没有人说明他缺课的原因。", "confusion_note": "in the absence of表示“在缺少……的情况下”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0011", "mapping_id": "MAP-000011", "relation_ids": ["REL-000091"], "review_ids": ["REV-000061"], "admission_ids": ["ADM-000036"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-008", "target": "awesome", "meaning": "令人惊叹的；极好的", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "awful", "anchor_candidates": [{"word":"awful","meaning":"很坏的；可怕的","priority":1,"status":"compulsory_education_base","transform":"awful 与 awesome 都来自 awe；把 -ful 对照为 -some","bridge":"同一份 awe，awful 后来偏向糟糕，awesome 保留令人惊叹的赞美。","recall_prompt":"与 awful 共享 awe、现代常表示“极好的”是哪个词？","fact_boundary":"awesome 来自 awe+-some，awful 来自 awe+-ful；两词的现代褒贬是历史语义分化。"},{"word":"awe","meaning":"敬畏；惊叹","priority":2,"status":"diagnose_first","transform":"awe + -some → awesome","bridge":"能让你产生 awe 的事物，就是 awesome：令人惊叹的。","recall_prompt":"awe 加 -some 得到哪个表示“令人惊叹的”形容词？","fact_boundary":"awesome 是 awe 与形容词后缀 -some 的真实构词。"}],
+      "transform": "awesome与awful都以awe“敬畏、惊叹”为核心", "form_operations": ["共享词基", "后缀对照", "语义分化"],
+      "bridge": "同一份awe，awesome留下惊叹与赞美，awful后来常表示糟糕。", "recall_prompt": "与awful共享awe、但现代常表示“极好的”是哪个词？",
+      "meaning_prompt": "让人惊叹、非常棒的事物怎样形容？", "warning": "不要按现代意思把awesome和awful理解成机械反义词。",
+      "fact_boundary": "awesome来自awe+-some，awful来自awe+-ful；二者的现代褒贬是历史语义分化。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "historical_semantics",
+      "example": "The view from the mountain was truly awesome.", "example_translation": "山顶的景色确实令人惊叹。", "confusion_note": "正式写作中awesome语气较口语化，可用impressive等替换。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0216", "mapping_id": "MAP-000216", "relation_ids": ["REL-000271"], "review_ids": ["REV-000065"], "admission_ids": ["ADM-000040"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-009", "target": "geometry", "meaning": "几何学", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "geography", "anchor_candidates": [{"word":"geography","meaning":"地理学","priority":1,"status":"compulsory_education_base"}],
+      "transform": "共同的geo-表示“土地、地球”；-metry表示“测量”", "form_operations": ["共享构词成分", "词素拆分"],
+      "bridge": "geography研究地球；geo加“测量”metry，就是最初测量土地的geometry。", "recall_prompt": "geo“土地”加-metry“测量”组成哪个学科词？",
+      "meaning_prompt": "研究形状、大小与空间关系的数学分支是什么？", "warning": "不要漏掉-metry中的第二个e。",
+      "fact_boundary": "geometry来自希腊语ge“土地”与metron“测量”的真实构形。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "We learned how to prove the theorem in geometry class.", "example_translation": "我们在几何课上学习了如何证明这个定理。", "confusion_note": "geography的后半部分是-graphy“书写、描述”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1223", "mapping_id": "MAP-001223", "relation_ids": ["REL-000381"], "review_ids": ["REV-000064"], "admission_ids": ["ADM-000039"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-010", "target": "joint", "meaning": "关节；接合处；共同的", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "join", "anchor_candidates": [{"word":"join","meaning":"连接；加入","priority":1,"status":"compulsory_education_base"}],
+      "transform": "join → joint；共同的历史核心是“连接”", "form_operations": ["增加字母", "历史词族"],
+      "bridge": "两根骨头join在一起的连接处，就是joint关节。", "recall_prompt": "骨头join在一起的连接处叫什么？",
+      "meaning_prompt": "连接两块骨头的关节用哪个词？", "warning": "末尾要写t：joint。",
+      "fact_boundary": "joint与join经法语共享真实历史来源；不是现代英语随意给join加t。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "Regular exercise can help protect your knee joints.", "example_translation": "规律运动有助于保护膝关节。", "confusion_note": "joint作形容词时表示“共同的、联合的”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1507", "mapping_id": "MAP-001507", "relation_ids": ["REL-000445"], "review_ids": ["REV-000062"], "admission_ids": ["ADM-000037"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-011", "target": "metal", "meaning": "金属", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "medal", "anchor_candidates": [{"word":"medal","meaning":"奖牌；勋章","priority":1,"status":"compulsory_education_base"}],
+      "transform": "medal ↔ metal；只差d/t", "form_operations": ["替换一个字母", "近形对照"],
+      "bridge": "一枚medal通常由metal制成：奖牌是金属做的。", "recall_prompt": "medal奖牌通常由什么材料制成？写出只差一个字母的词。",
+      "meaning_prompt": "铁、铜、金都属于什么？", "warning": "metal写t，medal写d。",
+      "fact_boundary": "metal与medal没有已确认的直接词源关系；这是一条明确标注的图像助记。", "evidence_level": "M1", "evidence_badge": "mnemonic_only", "fact_label": "none",
+      "example": "The bridge is made of steel and other metal parts.", "example_translation": "这座桥由钢和其他金属部件制成。", "confusion_note": "学习时必须同时做d/t拼写辨析，防止助记造成混写。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1720", "mapping_id": "MAP-001720", "relation_ids": ["REL-000392"], "review_ids": ["REV-000067"], "admission_ids": ["ADM-000042"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-012", "target": "owe", "meaning": "欠；应给予；归因于", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "own", "anchor_candidates": [{"word":"own","meaning":"拥有；自己的","priority":1,"status":"compulsory_education_base"}],
+      "transform": "own ↔ owe；共享古英语“拥有、负有”来源", "form_operations": ["末字母对照", "历史语义分化"],
+      "bridge": "你own的东西也可能还没付清，于是你owe别人钱。", "recall_prompt": "own是拥有，表示欠别人东西的近形词是什么？",
+      "meaning_prompt": "欠某人钱用哪个动词？", "warning": "owe结尾是e；常用owe somebody something。",
+      "fact_boundary": "owe与own来自同一个古英语词族；现代词义已经分化。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "I still owe my friend fifty yuan.", "example_translation": "我还欠朋友五十元。", "confusion_note": "owe...to...还可表示“把……归因于……”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1951", "mapping_id": "MAP-001951", "relation_ids": ["REL-000028"], "review_ids": ["REV-000066"], "admission_ids": ["ADM-000041"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-013", "target": "tip", "meaning": "尖端；小费；提示", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "top", "anchor_candidates": [{"word":"top","meaning":"顶部；顶端","priority":1,"status":"compulsory_education_base"}],
+      "transform": "top ↔ tip；o/i对照，意义都可指端点", "form_operations": ["替换元音", "近形对照"],
+      "bridge": "top是整个顶部，tip是最尖的那个端点。", "recall_prompt": "top是顶部，表示“尖端”的近形词是什么？",
+      "meaning_prompt": "铅笔最尖的那一端用哪个词？", "warning": "tip与top只做现代辨析，不把o/i替换当成真实音变。",
+      "fact_boundary": "现有证据不足以证明top与tip直接派生；这是一条明确标注的近形助记。", "evidence_level": "M1", "evidence_badge": "mnemonic_only", "fact_label": "none",
+      "example": "Write your name at the top and read the tip below.", "example_translation": "在顶部写下名字，并阅读下面的提示。", "confusion_note": "tip还可表示小费；具体含义由语境决定。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2819", "mapping_id": "MAP-002819", "relation_ids": ["REL-000201"], "review_ids": ["REV-000055"], "admission_ids": ["ADM-000030"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-014", "target": "import", "meaning": "进口；输入；进口商品", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "carry", "anchor_candidates": [{"word":"carry","meaning":"携带；搬运","priority":1,"status":"compulsory_education_base","transform":"im-/in-（向内）+ port（carry，携带）","bridge":"把货物 carry 进来：in + port，就是 import 进口。","recall_prompt":"把货物 carry 进一个国家，用哪个以 -port 结尾的词？","fact_boundary":"import 来自拉丁 in- 加 portare“携带”；carry 用来说明真实词根义，但不是直接母词。"},{"word":"portable","meaning":"便携的","priority":2,"status":"diagnose_first","transform":"portable 与 import 共享 port“携带”；import 再加向内的 im-/in-","bridge":"portable 是能被携带的；把东西携带进来，就是 import。","recall_prompt":"portable 的 port 表示携带；向内携带、进口用哪个词？","fact_boundary":"portable 与 import 共享拉丁 portare“携带”的历史词根关系。"}],
+      "transform": "im-/in-（向内）+ port（carry，携带）", "form_operations": ["前缀加古典词根", "意义方向"],
+      "bridge": "把货物carry进来：in + port，就是import进口。", "recall_prompt": "把货物carry进一个国家，用哪个以-port结尾的词？",
+      "meaning_prompt": "从国外把商品运进来叫什么？", "warning": "这里的-port是“携带”，不是日常熟词port“港口”的直接来源。",
+      "fact_boundary": "import来自拉丁in-加portare“携带”；用carry说明词根义，关系真实但有历史层次。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "cognate_history",
+      "example": "The country imports most of its oil.", "example_translation": "这个国家的大部分石油依赖进口。", "confusion_note": "import是运进来；export是运出去。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1417", "mapping_id": "MAP-001417", "relation_ids": ["REL-000360"], "review_ids": ["REV-000060"], "admission_ids": ["ADM-000052"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-015", "target": "drawer", "meaning": "抽屉；开票人", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "draw", "anchor_candidates": [{"word":"draw","meaning":"拉；画；抽取","priority":1,"status":"compulsory_education_base"}],
+      "transform": "draw（拉）+ -er（可拉出的东西）", "form_operations": ["增加后缀", "动作到物体"],
+      "bridge": "一拉draw就打开的盒子，就是drawer抽屉。", "recall_prompt": "一拉draw就打开的家具部件叫什么？",
+      "meaning_prompt": "桌子里可以拉出来放东西的部分是什么？", "warning": "发音中drawer常压缩，但拼写必须保留draw。",
+      "fact_boundary": "drawer明确来自draw加-er；本卡只采用已核验的抽屉关系。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "historical_semantics",
+      "example": "The keys are in the top drawer of the desk.", "example_translation": "钥匙在书桌最上面的抽屉里。", "confusion_note": "drawer还可指开票人，但高中阶段优先掌握“抽屉”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0877", "mapping_id": "MAP-000877", "relation_ids": ["REL-000206"], "review_ids": ["REV-000068"], "admission_ids": ["ADM-000043"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-016", "target": "inspire", "meaning": "激励；启发；赋予灵感", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "spirit", "anchor_candidates": [{"word":"spirit","meaning":"精神；心灵","priority":1,"status":"compulsory_education_base"}],
+      "transform": "in-（进入）+ spir（breathe，呼吸）", "form_operations": ["共享古典词根", "历史语义发展"],
+      "bridge": "像向一个人的spirit吹入一口气，让他重新有力量，就是inspire。", "recall_prompt": "向spirit里吹入力量、给人灵感，用哪个词？",
+      "meaning_prompt": "激励某人采取行动用哪个动词？", "warning": "spir-是古典“呼吸”词根，不是现代英语可自由添加的前缀。",
+      "fact_boundary": "inspire与spirit共享拉丁“呼吸”核心；从吹气发展到赋予精神和灵感。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "cognate_history",
+      "example": "Her courage inspired us to keep trying.", "example_translation": "她的勇气激励我们继续尝试。", "confusion_note": "inspire somebody to do something是常用结构。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1455", "mapping_id": "MAP-001455", "relation_ids": ["REL-000347"], "review_ids": ["REV-000058"], "admission_ids": ["ADM-000053"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-017", "target": "yield", "meaning": "产生；产出；屈服；让路", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "field", "anchor_candidates": [{"word":"field","meaning":"田地；领域","priority":1,"status":"compulsory_education_base"}],
+      "transform": "field ↔ yield；只看见f/y差异，建立“田地产出”场景", "form_operations": ["替换首字母", "场景联想"],
+      "bridge": "一块field经过耕种会yield粮食：田地会产出。", "recall_prompt": "field会“产出”作物，表示产出的近形词是什么？",
+      "meaning_prompt": "土地或投资产生收益用哪个动词？", "warning": "field与yield不同源，f/y不是已证实音变。",
+      "fact_boundary": "这是一条纯助记桥；它只利用现代场景和拼写相似帮助记忆。", "evidence_level": "M1", "evidence_badge": "mnemonic_only", "fact_label": "none",
+      "example": "The new farming method can yield better results.", "example_translation": "这种新耕作方法能产生更好的结果。", "confusion_note": "yield to表示“向……屈服”；交通标志中可表示“让行”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-3088", "mapping_id": "MAP-003088", "relation_ids": ["REL-000200"], "review_ids": ["REV-000054"], "admission_ids": ["ADM-000029"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-018", "target": "impress", "meaning": "给……留下深刻印象；使钦佩", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "press", "anchor_candidates": [{"word":"press","meaning":"按；压；新闻界","priority":1,"status":"compulsory_education_base"}],
+      "transform": "im-/in-（进入、在上）+ press（压）", "form_operations": ["前缀同化", "共享词根", "图像语义"],
+      "bridge": "把一道印记press进脑海，留下深刻印象，就是impress。", "recall_prompt": "把印象press进别人脑海，用哪个词？",
+      "meaning_prompt": "给某人留下深刻印象用哪个动词？", "warning": "in-在p前同化为im-；不是随意的i/m替换。",
+      "fact_boundary": "impress与press共享拉丁premere“按压”词族，但经历了拉丁和法语历史路径。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "cognate_history",
+      "example": "Her clear explanation impressed the interviewers.", "example_translation": "她清晰的说明给面试官留下了深刻印象。", "confusion_note": "be impressed by/with表示“对……印象深刻”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1420", "mapping_id": "MAP-001420", "relation_ids": ["REL-000356"], "review_ids": ["REV-000059"], "admission_ids": ["ADM-000054"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-019", "target": "depress", "meaning": "使沮丧；使萧条；压下", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "press", "anchor_candidates": [{"word":"press","meaning":"按；压","priority":1,"status":"compulsory_education_base"}],
+      "transform": "de-（向下）+ press（压）", "form_operations": ["前缀加词根", "方向图像"],
+      "bridge": "情绪像被press向下，低落下去，就是depress。", "recall_prompt": "把情绪press向下、使人沮丧，用哪个词？",
+      "meaning_prompt": "使某人情绪低落用哪个动词？", "warning": "日常更常见depressed“感到沮丧的”和depressing“令人沮丧的”。",
+      "fact_boundary": "depress与press共享拉丁premere“按压”词族；不是现代英语简单拼接的全部历史。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "cognate_history",
+      "example": "Long periods of isolation can depress some people.", "example_translation": "长时间的孤立可能使一些人情绪低落。", "confusion_note": "人感到沮丧用depressed；事情令人沮丧用depressing。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0774", "mapping_id": "MAP-000774", "relation_ids": ["REL-000356"], "review_ids": ["REV-000059"], "admission_ids": ["ADM-000055"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-020", "target": "rival", "meaning": "竞争对手；可与……匹敌的人或物", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "river", "anchor_candidates": [{"word":"river","meaning":"河流","priority":1,"status":"compulsory_education_base"}],
+      "transform": "river帮助进入“共享溪流、争夺水源”的历史场景", "form_operations": ["近形入口", "历史文化场景"],
+      "bridge": "古时共享一条溪流的人会争水，后来rival就成了竞争对手。", "recall_prompt": "共享river水源而互相竞争的人，历史上发展成哪个词？",
+      "meaning_prompt": "与你争夺同一目标的竞争对手叫什么？", "warning": "英语river没有通过r/l替换直接变成rival。",
+      "fact_boundary": "rival历史上指共享同一溪流的人；river只负责唤起场景，不是直接词源母词。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "historical_semantics",
+      "example": "The two teams have been rivals for many years.", "example_translation": "这两支队伍多年来一直是竞争对手。", "confusion_note": "rival既可作名词，也可作动词表示“与……匹敌”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2347", "mapping_id": "MAP-002347", "relation_ids": ["REL-000029"], "review_ids": ["REV-000013"], "admission_ids": ["ADM-000056"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-021", "target": "transport", "meaning": "运输；运送；交通运输系统", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "carry", "anchor_candidates": [{"word":"carry","meaning":"携带；搬运","priority":1,"status":"compulsory_education_base","transform":"trans-（越过）+ port（carry，携带）","bridge":"把人或货物 carry across，从一边运到另一边，就是 transport。","recall_prompt":"把货物 carry across 到另一地，用哪个以 -port 结尾的词？","fact_boundary":"transport 来自 trans- 加拉丁 portare“携带”；carry 用来说明词根义，但不是直接母词。"},{"word":"portable","meaning":"便携的","priority":2,"status":"diagnose_first","transform":"portable 与 transport 共享 port“携带”；transport 再加 trans-“越过”","bridge":"portable 是可以携带；携带着越过一段距离，就是 transport 运输。","recall_prompt":"portable 的 port 表示携带；跨越地点地携带用哪个词？","fact_boundary":"portable 与 transport 共享拉丁 portare“携带”的历史词根关系。"}],
+      "transform": "trans-（越过、从一边到另一边）+ port（carry）", "form_operations": ["前缀加古典词根", "方向图像"],
+      "bridge": "把人或货物carry across，从一边运到另一边，就是transport。", "recall_prompt": "把货物carry across到另一地，用哪个以-port结尾的词？",
+      "meaning_prompt": "把人或货物从一地运到另一地叫什么？", "warning": "这里的port是历史“携带”核心，不是“港口”义。",
+      "fact_boundary": "transport来自trans-加拉丁portare“携带”；关系真实但保留历史层次。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "cognate_history",
+      "example": "Trains transport thousands of passengers every day.", "example_translation": "火车每天运送数千名乘客。", "confusion_note": "transport作名词时可指运输或交通工具系统。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2865", "mapping_id": "MAP-002865", "relation_ids": ["REL-000360"], "review_ids": ["REV-000060"], "admission_ids": ["ADM-000057"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-022", "target": "export", "meaning": "出口；输出；出口商品", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "carry", "anchor_candidates": [{"word":"carry","meaning":"携带；搬运","priority":1,"status":"compulsory_education_base","transform":"ex-（向外）+ port（carry，携带）","bridge":"把货物 carry 出去：ex + port，就是 export 出口。","recall_prompt":"把商品 carry 出一个国家，用哪个以 -port 结尾的词？","fact_boundary":"export 来自拉丁 ex- 加 portare“携带”；carry 用来说明真实词根义，但不是直接母词。"},{"word":"portable","meaning":"便携的","priority":2,"status":"diagnose_first","transform":"portable 与 export 共享 port“携带”；export 再加 ex-“向外”","bridge":"portable 是可以携带；把商品携带到国外，就是 export 出口。","recall_prompt":"portable 的 port 表示携带；向外携带、出口用哪个词？","fact_boundary":"portable 与 export 共享拉丁 portare“携带”的历史词根关系。"}],
+      "transform": "ex-（向外）+ port（carry）", "form_operations": ["前缀加古典词根", "意义方向"],
+      "bridge": "把货物carry出去：ex + port，就是export出口。", "recall_prompt": "把商品carry出一个国家，用哪个以-port结尾的词？",
+      "meaning_prompt": "把本国商品卖到国外叫什么？", "warning": "export向外，import向内；注意方向相反。",
+      "fact_boundary": "export来自拉丁ex-加portare“携带”；用carry帮助理解真实词根义。", "evidence_level": "L2", "evidence_badge": "limited", "fact_label": "cognate_history",
+      "example": "The company exports electric cars to Europe.", "example_translation": "这家公司向欧洲出口电动汽车。", "confusion_note": "动词常重读第二音节，名词常重读第一音节。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1036", "mapping_id": "MAP-001036", "relation_ids": ["REL-000360"], "review_ids": ["REV-000060"], "admission_ids": ["ADM-000058"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-023", "target": "apart", "meaning": "分开；相隔；成碎片", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "part", "anchor_candidates": [{"word":"part","meaning":"部分；分开","priority":1,"status":"compulsory_education_base"}],
+      "transform": "历史a part“到一边” → apart", "form_operations": ["历史短语合写", "熟词包含"],
+      "bridge": "一个整体分成不同的part，各部分彼此分开，就是apart。", "recall_prompt": "一个东西分成不同part、彼此分开，用哪个词？",
+      "meaning_prompt": "两座房子相隔十米时用哪个副词？", "warning": "apart是“分开地”；a part是“一个部分”。",
+      "fact_boundary": "apart来自历史a part“到一边”；不是今天给part随意加a的通用规则。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "The two villages are only three kilometres apart.", "example_translation": "这两个村庄仅相隔三公里。", "confusion_note": "apart与a part是高频易混点，必须分开书写。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0139", "mapping_id": "MAP-000139", "relation_ids": [], "review_ids": ["REV-000069"], "admission_ids": ["ADM-000044"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-024", "target": "arise", "meaning": "出现；产生；起身", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "rise", "anchor_candidates": [{"word":"rise","meaning":"上升；起身","priority":1,"status":"compulsory_education_base"}],
+      "transform": "历史a- + rise；共享“升起、出现”核心", "form_operations": ["历史前缀", "熟词包含"],
+      "bridge": "问题像太阳一样rise起来，于是问题arises：出现、产生。", "recall_prompt": "问题rise起来、开始出现，用哪个词？",
+      "meaning_prompt": "问题或机会开始出现时用哪个动词？", "warning": "过去式arose，过去分词arisen。",
+      "fact_boundary": "arise与rise是真实古英语词族；历史a-不是现代可自由添加的前缀。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "New problems may arise during the experiment.", "example_translation": "实验过程中可能出现新问题。", "confusion_note": "arise是不及物动词；raise通常是及物动词“举起、提高”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0162", "mapping_id": "MAP-000162", "relation_ids": [], "review_ids": ["REV-000070"], "admission_ids": ["ADM-000045"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-025", "target": "aside", "meaning": "在旁边；到旁边；留出", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "side", "anchor_candidates": [{"word":"side","meaning":"边；侧面","priority":1,"status":"compulsory_education_base"}],
+      "transform": "历史a-（在、向）+ side", "form_operations": ["历史前缀", "熟词包含"],
+      "bridge": "把暂时不用的东西放到side，就是put it aside：放在一边。", "recall_prompt": "把东西放到side、留在一边，用哪个词？",
+      "meaning_prompt": "走到一旁或把东西留到一边用哪个词？", "warning": "常见搭配：step aside、put aside、set aside。",
+      "fact_boundary": "aside来自历史a-加side；不同单词中的a-可能有不同来源。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "She put the book aside and answered the phone.", "example_translation": "她把书放到一边，接了电话。", "confusion_note": "aside还可作名词表示戏剧中的旁白。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0177", "mapping_id": "MAP-000177", "relation_ids": [], "review_ids": ["REV-000071"], "admission_ids": ["ADM-000046"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-026", "target": "breathe", "meaning": "呼吸", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "breath", "anchor_candidates": [{"word":"breath","meaning":"呼吸；一口气","priority":1,"status":"compulsory_education_base"}],
+      "transform": "breath（名词）+ e → breathe（动词）；读音也变长", "form_operations": ["增加字母", "名词动词对照", "读音变化"],
+      "bridge": "take a breath是吸一口气；真正做呼吸动作就是breathe。", "recall_prompt": "breath是名词，表示“呼吸”这个动作的动词怎么写？",
+      "meaning_prompt": "吸入和呼出空气用哪个动词？", "warning": "breathe末尾有e，读音也与breath不同。",
+      "fact_boundary": "breathe来自breath词族；不能把名词加e变动词推广为通用规则。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "Breathe slowly and try to relax your shoulders.", "example_translation": "慢慢呼吸，并试着放松肩膀。", "confusion_note": "breath /breθ/是名词；breathe /briːð/是动词。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0363", "mapping_id": "MAP-000363", "relation_ids": [], "review_ids": ["REV-000072"], "admission_ids": ["ADM-000047"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-027", "target": "enable", "meaning": "使能够；使成为可能", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "able", "anchor_candidates": [{"word":"able","meaning":"能够的；有能力的","priority":1,"status":"compulsory_education_base"}],
+      "transform": "en-（使成为）+ able（能够的）", "form_operations": ["增加前缀", "词性变化"],
+      "bridge": "让一个人变得able，就是enable他：使他能够。", "recall_prompt": "使某人变得able，用哪个动词？",
+      "meaning_prompt": "使某人能够做某事用哪个词？", "warning": "常用结构enable somebody to do something。",
+      "fact_boundary": "enable由en-与able构成，是真实且透明的英语构词。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "The new app enables students to practise anywhere.", "example_translation": "这个新应用使学生能够随时随地练习。", "confusion_note": "enable后接人或事物，再接to do。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-0947", "mapping_id": "MAP-000947", "relation_ids": [], "review_ids": ["REV-000073"], "admission_ids": ["ADM-000048"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-028", "target": "forecast", "meaning": "预测；预报", "curriculum_level": "高中选择性必修", "curriculum_code": "high_school_selective_required",
+      "anchor": "cast", "anchor_candidates": [{"word":"cast","meaning":"投；投射；分配角色","priority":1,"status":"compulsory_education_base","transform":"fore-（在前、预先）+ cast（历史上有筹划、估计义）","bridge":"在事情发生前 fore，先把可能的结果估计出来，就是 forecast。","recall_prompt":"在事情发生前作出估计，用哪个以 cast 结尾的词？","fact_boundary":"forecast 由 fore- 加 cast 的历史筹划、估计义构成；现代 cast 的常用义不能解释全部历史。"},{"word":"before","meaning":"在……之前","priority":2,"status":"compulsory_education_base","transform":"before 中的 fore 与 forecast 的 fore- 都提示“在前、预先”","bridge":"before 是在事情之前；在事情之前先做预测，就是 forecast。","recall_prompt":"before 事情发生就先作预测，用哪个 fore- 开头的词？","fact_boundary":"before 可帮助理解 fore-“在前”的方向义；forecast 的完整构词还包含 cast 的历史估计义。"}],
+      "transform": "fore-（在前、预先）+ cast（历史上有筹划、估计义）", "form_operations": ["增加前缀", "历史语义"],
+      "bridge": "事情发生前fore，先把可能的结果估计出来，就是forecast。", "recall_prompt": "在事情发生fore之前作出估计，用哪个词？",
+      "meaning_prompt": "天气预报中的“预报”用哪个词？", "warning": "现代cast最常见的“投掷”不是这里的完整历史解释。",
+      "fact_boundary": "forecast由fore-加cast的历史筹划、估计义构成；后来发展为预测。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "The weather forecast says it will rain tomorrow.", "example_translation": "天气预报说明天会下雨。", "confusion_note": "forecast的过去式可用forecast或forecasted。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1150", "mapping_id": "MAP-001150", "relation_ids": [], "review_ids": ["REV-000074"], "admission_ids": ["ADM-000049"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-029", "target": "income", "meaning": "收入；收益", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "come", "anchor_candidates": [{"word":"come","meaning":"来；到来","priority":1,"status":"compulsory_education_base"}],
+      "transform": "in（进入）+ come（来）", "form_operations": ["复合", "熟词包含", "历史语义发展"],
+      "bridge": "钱come in进入账户，就成了income收入。", "recall_prompt": "钱come in进入账户，形成哪个表示收入的词？",
+      "meaning_prompt": "工作或投资带来的收入用哪个名词？", "warning": "income通常是不可数名词。",
+      "fact_boundary": "income历史字面义就是“coming in”，后来发展为现代收入义。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "direct_formation",
+      "example": "Her main income comes from teaching online.", "example_translation": "她的主要收入来自线上教学。", "confusion_note": "income是收入总量；salary通常指固定工资。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-1427", "mapping_id": "MAP-001427", "relation_ids": [], "review_ids": ["REV-000075"], "admission_ids": ["ADM-000050"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    },
+    {
+      "id": "MVP-GK-030", "target": "strength", "meaning": "力量；强度；长处", "curriculum_level": "高中必修", "curriculum_code": "high_school_required",
+      "anchor": "strong", "anchor_candidates": [{"word":"strong","meaning":"强壮的；强的","priority":1,"status":"compulsory_education_base"}],
+      "transform": "strong → strength；o变e并以-th结尾", "form_operations": ["词族音形变化", "词性变化"],
+      "bridge": "一个人很strong，他拥有的力量就是strength。", "recall_prompt": "strong对应的名词“力量、长处”怎么写？",
+      "meaning_prompt": "人的力量或事物的长处用哪个名词？", "warning": "拼写是strength，不是strongth；复数strengths更难读写。",
+      "fact_boundary": "strength与strong是真实日耳曼词族；o/e变化与-th不能推广为任意形容词变名词规则。", "evidence_level": "L1", "evidence_badge": "verified", "fact_label": "cognate_history",
+      "example": "Patience is one of her greatest strengths.", "example_translation": "耐心是她最大的长处之一。", "confusion_note": "strength可表示力量、强度或优点，例句中是“长处”。",
+      "review_schedule_minutes": [10,1440,10080], "target_id": "GT-2025-2656", "mapping_id": "MAP-002656", "relation_ids": [], "review_ids": ["REV-000076"], "admission_ids": ["ADM-000051"], "rights_status": "rewritten_original", "content_status": "ready_for_mvp"
+    }
+  ]
+}
